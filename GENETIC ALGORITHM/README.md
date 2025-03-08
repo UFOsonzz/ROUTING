@@ -1,1 +1,2 @@
-ROUTING
+GENETIC ALGORITHM FOR TSP PROBLEM WITH SMALL GRAPHS
+Run testing.cpp to test GA's efficiency
