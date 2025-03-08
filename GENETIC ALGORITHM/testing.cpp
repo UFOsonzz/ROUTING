@@ -61,7 +61,7 @@ int main() {
 
         if (e == 1) 
             average_precision = current_precision;
-        else average_precision = (average_precision + (e - 1) + current_precision) / (double)e;
+        else average_precision = (average_precision * (e - 1) + current_precision) / (double)e;
     }
 
     cout << "AVERAGE PRECISION: " << average_precision;
